@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(8, 6, 101);
+}
+.container{
+    display:inline-block;
+    height:500px;
+    width:35%; 
+    text-align: center;
+    justify-content:center;
+    border-radius: 10px;
+    margin:0% 33% 0% 33%;
+    background-color: white;
+    
+}
+
+.app-title p{
+    font-size: 30px;
+    text-decoration: bold;
+    text-align: center;
+    justify-content:center;
+    color:black ;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+    margin:10px 0px 4px 0px;
+}
+
+.weather-icon img{
+    height:160px;
+    width:160px;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.temperature-value p{
+    font-size: 50px;
+    padding: 3px;
+    margin: 8px;
+    font-weight: 50px;
+}
+
+.temperature-value p:hover{
+    cursor:pointer;
+}
+
+.temperature-description p{
+    font-size: 35px;
+    padding: 3px;
+    margin: 6px;
+    font-weight: 30px;
+}
+
+.location p{
+    font-size: 25px;
+    padding: 3px;
+    margin: 6px;
+    font-weight: 25px;
+}
+
+form{
+    margin:12px 0px 0px 0px;
+}
+
+#search{
+    color:rgb(18, 41, 63);
+    border:3px solid rgb(65, 37, 37);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    text-align: center;
+    padding: 1px;
+    height: 30px;
+}
+
+.datetime{
+    color:rgb(109, 32, 218);
+    font-size: 20px;
+    font-weight: 300;
+}
